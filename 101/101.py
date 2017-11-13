@@ -476,6 +476,7 @@ class FlipTurtle(Turtle):   #inheritance
     def backward(self,val):
         super(FlipTurtle,self).forward(val)
 def main():
+    #test inheritance
     #t = Turtle()
     t = FlipTurtle()
     screen = t.getscreen()
